@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: 906951972908.dkr.ecr.ap-south-1.amazonaws.com/s1
+  repository: sunilsd1993/sunilsd:2
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "2"
 
 imagePullSecrets: []
 nameOverride: ""
