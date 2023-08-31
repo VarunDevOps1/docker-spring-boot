@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: sunilsd1993/sunilsd:2
+  repository: sunilsd1993/sunilsd
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "2"
